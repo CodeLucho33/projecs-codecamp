@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario e inputs</title>
 </head>
 
 <body>
@@ -35,20 +35,34 @@
                 <li>Gerigas</li>
                 <li>Latas vacias</li>
                 <li>Visitas</li>
-              </ol>
-       
-        <figure>
-            <img src="img/fear.jpeg" alt="Gato asustado">
-            <figcaption>Gato <strong>con</strong> miedo</figcaption>
-        </figure>
-     </section>
-     <section>
-        <h2>Un fromulario sobre gatos</h2>
-        <form required action="https://freecatphotoapp.com/submit-cat-photo"></form>
-        <input type="text" name="catphotourl" placeholder="cat photo URL">
-        <button type="submit">Submit</button>
-     </section>
-    </main>
-</body>
+            </ol>
 
+            <figure>
+                <img src="img/fear.jpeg" alt="Gato asustado">
+                <figcaption>Gato <strong>con</strong> miedo</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Un fromulario sobre gatos</h2>
+
+            <form required action="https://freecatphotoapp.com/submit-cat-photo"></form>
+<fieldset>
+    <legend>Is your cat indoor or outdoor cat?</legend>
+    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+    <label> <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+</fieldset>
+<fieldset>
+    <legend>What's your cat's personality?</legend>
+    <input type="checkbox" id="loving" checked> <label for="loving"></label>Loving</label>
+    <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+    <input id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>    
+</fieldset>
+            
+            <input name="personality" type="text" name="catphotourl" placeholder="cat photo URL">
+            <button type="submit">Submit</button>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<p>No <a href="">Copyright</a></p>
 </html>
