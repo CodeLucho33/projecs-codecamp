@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+
+}
+.marcador{ 
+    
+    height: 25px;
+    width: 250px;
+    /*
+    Cuando la propiedad margin tiene dos valores, 
+    el primer valor corresponde a margin-top y
+     margin-bottom y el segundo valor corresponde
+      a margin-left y margin-right.
+  */
+    margin: 10px auto;
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+}
+.green{
+    background-color:rgb(0,255,0);
+}
+.blue{
+    background-color: rgb(0, 0, 255);
+}
+.container{
+    background-color: rgb(255   , 255, 255);
+    padding: 10px 0;
+    
+}
