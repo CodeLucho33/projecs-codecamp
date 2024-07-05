@@ -1,0 +1,16 @@
+:root{
+--colorUno: #E7F0DC;
+--colorDos: #597445;
+--colorTres: #658147;
+--colorCuatro: #729762;
+
+}
+
+
+body{ 
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--colorTres);
+    color: var(--colorUno);
+}
