@@ -16,11 +16,12 @@ h1{
 }
 
 .red {
-    background: linear-gradient(90deg, rgb(255, 0, 0),rgb(0,255,0));
+    background: linear-gradient( rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
   }
-.green{
-    background: linear-gradient(90deg,#973131,#E0A75E,#F9D689,#F5E7B2);
-}
+  
+  .green {
+    background: linear-gradient( #55680D, #71F53E, #116C31);
+  }
 .blue{
     background-color: rgb(0, 0, 255);
 }
